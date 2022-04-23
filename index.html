@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="overview">Artela</div>
+    <script>
+        if (!location.pathname.startsWith("/app")) {
+            location.replace("/app" + location.pathname);
+        } else {
+            document.getElementById("overview").hidden = false;
+        }
+    </script>
+</body>
+</html>
