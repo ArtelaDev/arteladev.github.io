@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+        <StaticWebAssetBasePath>app</StaticWebAssetBasePath>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -16,11 +17,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Remove="temp\**" />
-        <Content Remove="temp\**" />
-        <EmbeddedResource Remove="temp\**" />
-        <None Remove="temp\**" />
-
         <Compile Remove="app\**" />
         <Content Remove="app\**" />
         <EmbeddedResource Remove="app\**" />
@@ -28,23 +24,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly"
-                          Version="6.0.3" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer"
-                          Version="6.0.3"
-                          PrivateAssets="all" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.3" PrivateAssets="all" />
     </ItemGroup>
 
     <ItemGroup>
-        <ServiceWorker Include="wwwroot\service-worker.js"
-                       PublishedContent="wwwroot\service-worker.published.js" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <Folder Include="wwwroot\images\" />
-        <Folder Include="wwwroot\lib\" />
-        <Folder Include="wwwroot\styles\" />
-        <Folder Include="wwwroot\scripts\" />
+        <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
     </ItemGroup>
 
 </Project>
