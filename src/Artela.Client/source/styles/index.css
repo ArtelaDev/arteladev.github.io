@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 .font-vazir {
     font-family: Vazirmatn, sans-serif;
@@ -10,4 +11,8 @@
 
 body {
     font-family: Vazirmatn, sans-serif;
+}
+
+.ae-background {
+    background: url("~/wwwroot/images/baner-e-1.jpg");
 }

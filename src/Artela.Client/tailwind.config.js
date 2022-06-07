@@ -1,7 +1,7 @@
 module.exports = {
     content: [
         "./**/*.{razor,html,ts,css}",
-        "!./wwwroot/**/*",
+        "!./wwwroot/libs/**/*",
         "!/node_modules/**/*"
     ],
     theme: {
