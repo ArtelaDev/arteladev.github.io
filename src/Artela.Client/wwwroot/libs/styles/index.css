@@ -475,6 +475,10 @@ img, video {
   gap: 1rem;
 }
 
+.gap-1 {
+  gap: .25rem;
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -535,12 +539,20 @@ img, video {
   background-color: #7c2d1233;
 }
 
+.bg-black\/50 {
+  background-color: #00000080;
+}
+
 .object-cover {
   object-fit: cover;
 }
 
 .p-2 {
   padding: .5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-lg {
@@ -551,6 +563,16 @@ img, video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
