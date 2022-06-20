@@ -1,4 +1,6 @@
 ﻿@import "vazirmatn/Vazirmatn-font-face.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 
 @tailwind base;
 @tailwind components;
@@ -6,13 +8,13 @@
 @tailwind variants;
 
 .font-vazir {
-    font-family: Vazirmatn, sans-serif;
+  font-family: Vazirmatn, sans-serif;
 }
 
 body {
-    font-family: Vazirmatn, sans-serif;
+  font-family: Vazirmatn, sans-serif;
 }
 
 .ae-background {
-    background: url("~/wwwroot/images/baner-e-1.jpg");
+  background: url("~/wwwroot/images/baner-e-1.jpg");
 }

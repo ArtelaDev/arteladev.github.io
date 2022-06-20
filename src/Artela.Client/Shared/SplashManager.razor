@@ -1,0 +1,24 @@
+@inject IJSRuntime Js
+
+@ChildContent
+
+@code {
+    private IJSObjectReference? _jSObjectReference = null;
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _jSObjectReference = await Js.InvokeAsync<IJSObjectReference>("import",
+            "./Shared/SplashManager.razor.js").ConfigureAwait(false);
+            await HideAsync().ConfigureAwait(false);
+        }
+    }
+
+    public ValueTask ShowAsync() => _jSObjectReference!.InvokeVoidAsync("show");
+
+    public ValueTask HideAsync() => _jSObjectReference!.InvokeVoidAsync("hide");
+}
