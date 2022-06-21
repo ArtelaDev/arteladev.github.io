@@ -1,9 +1,9 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
     "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": false,
+    "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "target": "ES5",
     "module": "ES6",
@@ -11,9 +11,7 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "outDir": "./",
-    "rootDir": "./"
+    "strictPropertyInitialization": true
   },
   "exclude": [
     "node_modules",
