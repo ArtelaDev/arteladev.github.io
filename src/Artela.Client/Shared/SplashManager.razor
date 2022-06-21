@@ -3,8 +3,6 @@
 @ChildContent
 
 @code {
-    private IJSObjectReference? _jSObjectReference = null;
-
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 
@@ -12,13 +10,11 @@
     {
         if (firstRender)
         {
-            _jSObjectReference = await Js.InvokeAsync<IJSObjectReference>("import",
-            "./Shared/SplashManager.razor.js").ConfigureAwait(false);
             await HideAsync().ConfigureAwait(false);
         }
     }
 
-    public ValueTask ShowAsync() => _jSObjectReference!.InvokeVoidAsync("show");
+    public ValueTask ShowAsync() => Js!.InvokeVoidAsync("splash.show");
 
-    public ValueTask HideAsync() => _jSObjectReference!.InvokeVoidAsync("hide");
+    public ValueTask HideAsync() => Js!.InvokeVoidAsync("splash.hide");
 }
