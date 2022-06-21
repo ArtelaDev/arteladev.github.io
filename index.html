@@ -1,38 +1,66 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa"
+      dir="rtl"
+      class="scroll-smooth">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Artela</title>
-    <base href="/" />
-    <link href="libs/styles/index.css" rel="stylesheet" />
-    <link href="Artela.Client.styles.css" rel="stylesheet" />
-    <link href="manifest.json" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+      <meta charset="utf-8" />
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>Artela</title>
+      <base href="/" />
+      <link href="libs/styles/index.css"
+            rel="stylesheet" />
+      <link href="Artela.Client.styles.css"
+            rel="stylesheet" />
+      <link href="manifest.json"
+            rel="manifest" />
+      <link rel="apple-touch-icon"
+            sizes="512x512"
+            href="icon-512.png" />
+      <link rel="apple-touch-icon"
+            sizes="192x192"
+            href="icon-192.png" />
 </head>
 
 <body>
-    <div class="absolute blur inset-0 w-full h-full">
-        <img src="images/site-background.jpg" class="w-full h-full object-cover" />
-    </div>
+      <div class="absolute blur -z-50 inset-0">
+            <img alt="Artela"
+                 src="images/site-background.jpg"
+                 class="w-full h-full object-cover" />
+      </div>
 
-    <div id="app" class="flex flex-col w-full h-full absolute justify-center align-center inset-0">
-        <div class="m-auto">
-            Artela
-        </div>
-    </div>
+      <div id="app"
+           class="flex flex-col w-full h-full absolute justify-center align-center inset-0 overflow-hidden">
+      </div>
 
-    <div id="blazor-error-ui" style="display:none;">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
+      <div id="splash"
+           class="absolute z-50 inset-0 w-full h-full flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center gap-2 p-2 rounded">
+                  <div class="">
+                        <img alt="Artela"
+                             src="/images/baner-e-1.jpg"
+                             class="aspect-square h-28 rounded-full border shadow" />
+                  </div>
+                  <div class="flex-1 flex flex-col text-white justify-center items-center text-center">
+                        <span class="text-3xl font-bold">گالری آرت‌الا</span>
+                        <span class="text-2xl font-500">نقاشی روی چوب</span>
+                  </div>
+            </div>
+      </div>
 
-    <script src="libs/scripts/index.js"></script>
-    <script src="_framework/blazor.webassembly.js"></script>
-    <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+      <div id="blazor-error-ui"
+           class="hidden">
+            An unhandled error has occurred.
+            <a href=""
+               class="reload">Reload</a>
+            <a class="dismiss">🗙</a>
+      </div>
+
+      <script src="libs/scripts/index.js"></script>
+      <script src="_framework/blazor.webassembly.js"></script>
+      <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
 </html>
