@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
@@ -27,13 +27,13 @@ jobs:
         run: dotnet workload install wasm-tools
 
       - name: Restore dependencies
-        run: dotnet restore -v d
+        run: dotnet restore -v n
 
       - name: Build
-        run: dotnet build -c Release --no-restore -v d
+        run: dotnet build -c Release --no-restore -v n
 
       - name: Publish
-        run: dotnet publish -o ./publish -c Release --no-restore --no-build -v d
+        run: dotnet publish -o ./publish -c Release --no-restore --no-build -v n
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
