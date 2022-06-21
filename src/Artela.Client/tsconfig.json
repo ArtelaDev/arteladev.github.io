@@ -11,7 +11,9 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true
+    "strictPropertyInitialization": true,
+    "outDir": "./",
+    "rootDir": "./"
   },
   "exclude": [
     "node_modules",
