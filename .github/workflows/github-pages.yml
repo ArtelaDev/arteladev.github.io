@@ -27,13 +27,13 @@ jobs:
         run: dotnet workload install wasm-tools
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore --verbosity normal
 
       - name: Build
-        run: dotnet build -c Release --no-restore
+        run: dotnet build -c Release --no-restore --verbosity normal
 
       - name: Publish
-        run: dotnet publish -o ./publish -c Release --no-restore --no-build
+        run: dotnet publish -o ./publish -c Release --no-restore --no-build -verbosity normal
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
