@@ -30,14 +30,14 @@ jobs:
         run: dotnet restore
 
       - name: Build
-        run: dotnet build -o /build -c Release --no-restore
+        run: dotnet build -c Release --no-restore
 
       - name: Publish
-        run: dotnet publish -o /publish -c Release
+        run: dotnet publish -o ./publish -c Release
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages
           clean: true
-          folder: /publish/wwwroot
+          folder: ./publish/wwwroot
