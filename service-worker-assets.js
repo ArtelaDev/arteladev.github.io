@@ -250,100 +250,96 @@
     },
     {
       "hash": "sha256-cdZ9G+6NpZIFiR+IR2Sn3XKjM0tT5YHKXwHuzRS\/fIA=",
-      "url": "libs\/baner-e-1.0709914f.jpg"
-    },
-    {
-      "hash": "sha256-cdZ9G+6NpZIFiR+IR2Sn3XKjM0tT5YHKXwHuzRS\/fIA=",
-      "url": "libs\/baner-e-1.fd16a5fc.jpg"
-    },
-    {
-      "hash": "sha256-QEx0bI9+P5t2EajyPZCMGjKlyXIja52Ju2iwXZv0uQU=",
-      "url": "libs\/fa-brands-400.6654f829.woff2"
+      "url": "libs\/baner-e-1.4c6cc61a.jpg"
     },
     {
       "hash": "sha256-5SP0nBKxOhdgFK8aRq5aBUWxNr9W1JZCaqiBAm0MMYo=",
-      "url": "libs\/fa-brands-400.ce1c7ce1.ttf"
+      "url": "libs\/fa-brands-400.e1102117.ttf"
+    },
+    {
+      "hash": "sha256-QEx0bI9+P5t2EajyPZCMGjKlyXIja52Ju2iwXZv0uQU=",
+      "url": "libs\/fa-brands-400.f1d3c63d.woff2"
     },
     {
       "hash": "sha256-Tpan4Jjjb9STGUxk6XO6UjfaZXYMe3RiF+Y8gwMmqaw=",
-      "url": "libs\/fa-regular-400.13a8468d.ttf"
+      "url": "libs\/fa-regular-400.8bd16613.ttf"
     },
     {
       "hash": "sha256-aidOdinA1x3PjKsedzNofr\/jLixTtMqfrQULTx1UcfM=",
-      "url": "libs\/fa-regular-400.7227c5cb.woff2"
-    },
-    {
-      "hash": "sha256-12+06EF0ij9rxj76IxVuAmMcKDv0H4Tvy9rzOeo+G3M=",
-      "url": "libs\/fa-solid-900.1b4fdc09.woff2"
+      "url": "libs\/fa-regular-400.d637878f.woff2"
     },
     {
       "hash": "sha256-A\/KYbAgkxova8eFpRzUvX+QX0DdBgGCX+p6nEx\/joBk=",
-      "url": "libs\/fa-solid-900.3e6bc0ee.ttf"
+      "url": "libs\/fa-solid-900.9dd9e3c3.ttf"
     },
     {
-      "hash": "sha256-hqaHz1reaR4ZqgNyD\/p8G6md0TfzbMYZgO7ER\/IWBic=",
-      "url": "libs\/fa-v4compatibility.72aab4da.ttf"
+      "hash": "sha256-12+06EF0ij9rxj76IxVuAmMcKDv0H4Tvy9rzOeo+G3M=",
+      "url": "libs\/fa-solid-900.ade64401.woff2"
     },
     {
       "hash": "sha256-DbMb77SDfFa\/F26HmnFbXN9FdVP8foh3+XS0xu91sbE=",
-      "url": "libs\/fa-v4compatibility.c4cdfad6.woff2"
+      "url": "libs\/fa-v4compatibility.0d5d7ccf.woff2"
     },
     {
-      "hash": "sha256-++EIXfYJVQIRUA4PjM3UpTcsfT3NckUSEPgCwWfA+3c=",
+      "hash": "sha256-hqaHz1reaR4ZqgNyD\/p8G6md0TfzbMYZgO7ER\/IWBic=",
+      "url": "libs\/fa-v4compatibility.57628f19.ttf"
+    },
+    {
+      "hash": "sha256-gvUMJ\/QSfsziWTEvTTCzGi8w61ycDSIoiRi+mwvKD\/0=",
       "url": "libs\/scripts\/index.js"
     },
     {
-      "hash": "sha256-Jt8e+McSfuw0PomE0Rd9jZViH0RRIimvFGc6E2Vbjtk=",
+      "hash": "sha256-vJbhF13EMCovHLyZp4SA7YoDLHxTKdwIDkQ+BwoPkgU=",
       "url": "libs\/scripts\/index.js.map"
     },
     {
-      "hash": "sha256-RmytlUGOUzuusLVmQRMmhgbficyvOf\/4RMbS6pF+GxQ=",
+      "hash": "sha256-vxQCW51QWuA0J048wVuNzWmDeEM0I5S6jT6hz\/5ryYM=",
       "url": "libs\/styles\/index.css"
     },
     {
-      "hash": "sha256-2JtuguFayHxq4FlgQSJB8taHkRU+Af8XueqxGcm2vvM=",
+      "hash": "sha256-+VawlQfjj6HJ+p\/kWO9rDgf\/y9Bi94gRs65NYtOymxg=",
       "url": "libs\/styles\/index.css.map"
     },
     {
-      "hash": "sha256-B\/BlDuyO71TGqqngXkHQ4U4mTDDk1JtjtT+hpyj\/PYc=",
-      "url": "libs\/Vazirmatn-Black.2741e5c3.woff2"
+      "hash": "sha256-4cLzUcjYXBW+vJHeDL+aWBr7TWBscOFF3MQo9aSyyQ4=",
+      "url": "libs\/Vazirmatn-Black.17620666.woff2"
     },
     {
-      "hash": "sha256-S\/smDPmda2Yt8oP1O\/J\/wnSRvHYr6Cv5WzH7N4sjawc=",
-      "url": "libs\/Vazirmatn-Bold.367b6c30.woff2"
+      "hash": "sha256-Vuej84QhB\/Zwf3V6kKy7Ghnd2NzO4I8brzV8LIlzrsI=",
+      "url": "libs\/Vazirmatn-Bold.9e68ac03.woff2"
     },
     {
-      "hash": "sha256-NzL\/ps\/wsaqjrVXHxbWFKm2C2d2j0jH8zee2WXVEctk=",
-      "url": "libs\/Vazirmatn-ExtraBold.213b1418.woff2"
+      "hash": "sha256-GTsm058Qh+cSIpWXYT42TFovnF1iR7xibCxmQT\/MS9o=",
+      "url": "libs\/Vazirmatn-ExtraBold.326451dc.woff2"
     },
     {
-      "hash": "sha256-fSdQ7XQSqtiD3KN9lSH76WleU+W0iKNaNZT8WnbU\/ks=",
-      "url": "libs\/Vazirmatn-ExtraLight.e29f0062.woff2"
+      "hash": "sha256-hCzCHYkQTNGCmHVP3KzEO1NreymgwZ70pEsUPCb5csY=",
+      "url": "libs\/Vazirmatn-ExtraLight.4471afc3.woff2"
     },
     {
-      "hash": "sha256-rp27MJl3Gs2lnz86\/++BOwZuFqSH3KbpOKVMGunbHPU=",
-      "url": "libs\/Vazirmatn-Light.5ce24b3a.woff2"
+      "hash": "sha256-FHbyv6mv2d+eaRO1\/iCrUajx7QhwbyrYfMZ245KZGEU=",
+      "url": "libs\/Vazirmatn-Light.56f29d27.woff2"
     },
     {
-      "hash": "sha256-sq2UExTFuQFZBR\/kzE9be17pHRbd66\/Q1NrCQ1+SQDI=",
-      "url": "libs\/Vazirmatn-Medium.a369bb78.woff2"
+      "hash": "sha256-1PQDMteBZnHD4W96mQwBckNRPne2NEy\/ExSN7ELlqpw=",
+      "url": "libs\/Vazirmatn-Medium.185ce45d.woff2"
     },
     {
-      "hash": "sha256-QOaNh4RlqYmWCWcyAPCaSwE8QGFTDfdHXldFC4r3Q20=",
-      "url": "libs\/Vazirmatn-Regular.73f35686.woff2"
+      "hash": "sha256-15PS15VYAOZIbS1OHxQOLJ2k8Px+hTgISp+aQGWATPU=",
+      "url": "libs\/Vazirmatn-Regular.3d1b0ff7.woff2"
     },
     {
-      "hash": "sha256-LPlkxKCzgkhRZpFJNeghmSLP\/\/fejXDdWlRHyNTy4MM=",
-      "url": "libs\/Vazirmatn-SemiBold.090f0f3b.woff2"
+      "hash": "sha256-Uw9SPINClDDTRAg82eahw4O5L4PtG1jcZRxTxGiBzes=",
+      "url": "libs\/Vazirmatn-SemiBold.c8f8624e.woff2"
     },
     {
-      "hash": "sha256-1acYusfyspiywnB+GC0Cs4bku4rY8nh98MlnfJTfRM8=",
-      "url": "libs\/Vazirmatn-Thin.5ece5fa7.woff2"
+      "hash": "sha256-jQOIMp3IwH1hgpFLunzDaOBcmSThxIHIPpJ6ywL3EVg=",
+      "url": "libs\/Vazirmatn-Thin.80fbad25.woff2"
     },
     {
       "hash": "sha256-Si2xbQDptVkTRn5NWD6oJrragK3o2WjGiesIYfTsiZ8=",
       "url": "manifest.json"
     }
   ],
-  "version": "HZtyZMa+"
+  "version": "KFmTqBLd"
 };
