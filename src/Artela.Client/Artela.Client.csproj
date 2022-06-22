@@ -33,4 +33,10 @@
         <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
     </ItemGroup>
 
+    <ItemGroup>
+      <TypeScriptCompile Update="source\index.ts">
+        <SubType>Code</SubType>
+      </TypeScriptCompile>
+    </ItemGroup>
+
 </Project>
