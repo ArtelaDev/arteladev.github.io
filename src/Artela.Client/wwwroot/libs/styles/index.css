@@ -8586,6 +8586,30 @@ img, video {
   border-radius: .25rem;
 }
 
+.rounded-xl {
+  border-radius: .75rem;
+}
+
+.rounded-t {
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.rounded-b {
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
+
+.rounded-b-xl {
+  border-bottom-left-radius: .75rem;
+  border-bottom-right-radius: .75rem;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+}
+
 .border {
   border-width: 1px;
 }
