@@ -25,11 +25,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-10qlw\/carbbtQdh8NMl2RVyFIow7N28jqxw+2tc\/B7I=",
+      "hash": "sha256-zNapCc2JF+15Iv+M4RY3YZjnV7P4nrVtF\/TVl4iGO9s=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-luWPvVekiJgMmU5VS2p1Yz3G1dbNS\/qoff7CWdpSIhQ=",
+      "hash": "sha256-F+c+TNP3IbaAYmWBvnnF2eyDS3SjcfXm4wQqH4D1QSQ=",
       "url": "_framework\/Artela.Client.dll"
     },
     {
@@ -141,11 +141,11 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-tGS4Se8a3yrglQ1H8tgeAY2EsWcaNh\/wLsfKgq13ftM=",
+      "hash": "sha256-gbhiXsNIMYHexxBKkJHt4LgkwuE7Bye+OqLTHa3fPow=",
       "url": "_framework\/dotnet.6.0.6.jlp7qkaf2r.js"
     },
     {
-      "hash": "sha256-gGgmLM6TBr9Z2Riial9Wa15YEu1FKQSX3DZkjAGM\/t8=",
+      "hash": "sha256-BY1AIfZnNKIkWF\/FVsf276p5tr7T4hPlLbaPliwKZP8=",
       "url": "_framework\/dotnet.wasm"
     },
     {
@@ -293,11 +293,11 @@
       "url": "libs\/scripts\/index.js.map"
     },
     {
-      "hash": "sha256-vxQCW51QWuA0J048wVuNzWmDeEM0I5S6jT6hz\/5ryYM=",
+      "hash": "sha256-XnoPFW8k4a01Ayhrj3twIrfp62Jp4MOWtBuy8jfrD8M=",
       "url": "libs\/styles\/index.css"
     },
     {
-      "hash": "sha256-+VawlQfjj6HJ+p\/kWO9rDgf\/y9Bi94gRs65NYtOymxg=",
+      "hash": "sha256-1EGBDNLmxbS4umjcgscCkZD8aPGKV2X5035hOmJvfhU=",
       "url": "libs\/styles\/index.css.map"
     },
     {
@@ -341,5 +341,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "KFmTqBLd"
+  "version": "atIaCboD"
 };
